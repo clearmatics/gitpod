@@ -1,0 +1,7 @@
+---
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: ./script.sh
+    command: nodejsconsole/console wss://rpc4.bakerloo.autonity.network:8546
